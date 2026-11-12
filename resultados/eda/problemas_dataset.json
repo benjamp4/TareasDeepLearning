@@ -1,0 +1,51 @@
+{
+  "conteos": {
+    "archivo_no_imagen_ignorado": 2,
+    "etiqueta_sin_imagen": 1,
+    "extension_jpg_pero_formato_png": 1159,
+    "extension_jpg_pero_formato_tiff": 12,
+    "imagen_sin_etiqueta_excluida": 1,
+    "linea_duplicada_descartada": 3
+  },
+  "ejemplos": {
+    "archivo_no_imagen_ignorado": [
+      "images/train/Thumbs.db",
+      "images/val/Thumbs.db"
+    ],
+    "etiqueta_sin_imagen": [
+      "labels/val/2515.txt"
+    ],
+    "extension_jpg_pero_formato_png": [
+      "images/train/1.jpg",
+      "images/train/10.jpg",
+      "images/train/1031.jpg",
+      "images/train/1032.jpg",
+      "images/train/1034.jpg",
+      "images/train/1035.jpg",
+      "images/train/1037.jpg",
+      "images/train/1038.jpg",
+      "images/train/1039.jpg",
+      "images/train/1041.jpg"
+    ],
+    "extension_jpg_pero_formato_tiff": [
+      "images/train/1775.jpg",
+      "images/train/1815.jpg",
+      "images/train/1816.jpg",
+      "images/train/2487.jpg",
+      "images/train/2489.jpg",
+      "images/train/2490.jpg",
+      "images/train/2751.jpg",
+      "images/train/2840.jpg",
+      "images/train/2846.jpg",
+      "images/val/2752.jpg"
+    ],
+    "imagen_sin_etiqueta_excluida": [
+      "images/train/2515.jpg"
+    ],
+    "linea_duplicada_descartada": [
+      "train/2066.txt:2",
+      "train/2269.txt:13",
+      "train/2276.txt:5"
+    ]
+  }
+}

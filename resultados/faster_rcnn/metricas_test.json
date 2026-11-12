@@ -1,0 +1,82 @@
+{
+  "modelo": "faster_rcnn_resnet50_fpn_coco",
+  "parametros": 41437536,
+  "parametros_entrenables": 41215136,
+  "fps": 29.9,
+  "entrada": 640,
+  "congelamiento": [
+    {
+      "bloque": "stem (conv1)",
+      "parametros": 9408,
+      "entrenables": 0,
+      "estado": "congelado"
+    },
+    {
+      "bloque": "ResNet layer1",
+      "parametros": 212992,
+      "entrenables": 0,
+      "estado": "congelado"
+    },
+    {
+      "bloque": "ResNet layer2",
+      "parametros": 1212416,
+      "entrenables": 1212416,
+      "estado": "entrena"
+    },
+    {
+      "bloque": "ResNet layer3",
+      "parametros": 7077888,
+      "entrenables": 7077888,
+      "estado": "entrena"
+    },
+    {
+      "bloque": "ResNet layer4",
+      "parametros": 14942208,
+      "entrenables": 14942208,
+      "estado": "entrena"
+    },
+    {
+      "bloque": "FPN",
+      "parametros": 3344384,
+      "entrenables": 3344384,
+      "estado": "entrena"
+    },
+    {
+      "bloque": "RPN",
+      "parametros": 593935,
+      "entrenables": 593935,
+      "estado": "entrena"
+    },
+    {
+      "bloque": "cabezal ROI",
+      "parametros": 13895680,
+      "entrenables": 13895680,
+      "estado": "entrena"
+    },
+    {
+      "bloque": "capa final (nueva)",
+      "parametros": 148625,
+      "entrenables": 148625,
+      "estado": "entrena"
+    }
+  ],
+  "tiempo_entrenamiento_min": 60.3,
+  "epocas": 30,
+  "mejor_epoca": 23,
+  "particion": "test",
+  "imagenes": 916,
+  "objetos": 1963,
+  "predicciones": 23438,
+  "clases_evaluadas": 24,
+  "mAP50_95": 0.2252018775623349,
+  "mAP50": 0.3623162937744047,
+  "mAP75": 0.24517401253382834,
+  "mAP_pequenos": 0.1124035859199216,
+  "mAP_medianos": 0.15598108392785018,
+  "mAP_grandes": 0.34096873588614435,
+  "precision": 0.7364953886693018,
+  "recall": 0.5695364238410596,
+  "F1": 0.6423441539787418,
+  "umbral_conf": 0.62566,
+  "ms_por_imagen": 33.46
+}

@@ -1,0 +1,6 @@
+modelo,parametros_M,ms_media,ms_mediana,ms_p95,fps
+CNN propia (cero),11.97,10.26,9.93,12.37,97.5
+YOLO11s (cero),9.44,14.28,13.93,16.67,70.0
+Faster R-CNN (COCO),41.44,33.46,32.88,38.01,29.9
+"YOLO11s (COCO, congelado)",9.44,14.23,13.95,16.61,70.3
+"YOLO11s (COCO, completo)",9.44,14.42,14.13,16.69,69.4
